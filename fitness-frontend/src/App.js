@@ -1,10 +1,14 @@
 import './App.css';
 import Hero from './Component/Hero/Hero';
+import Programs from './Component/Programs/Programs';
+import Reasons from './Component/Reasons/Reasons';
 
 function App() {
   return (
     <div className="App">
       <Hero/>
+      <Programs/>
+      <Reasons/>
     </div>
   );
 }
